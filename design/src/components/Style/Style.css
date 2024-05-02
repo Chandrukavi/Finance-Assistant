@@ -1,0 +1,228 @@
+.Main-Nav-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(32, 32, 32);
+  height: 15vh;
+  padding: 10px 40px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.Main-Nav-Container .nav-home span {
+  font-size: 30px;
+}
+.Main-Nav-Container .Link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.Main-Nav-Container .Link:hover {
+  border: 2px solid #454545;
+  padding: 10px;
+  background-color: #454545;
+  border-radius: 12px;
+}
+
+.Type-Form {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Type-Form h1 {
+  text-align: center;
+}
+.Type-Form .Main-InputField {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.Type-Form .Input-Label-One {
+  display: grid;
+  gap: 10px;
+}
+.Type-Form label {
+  font-weight: bold;
+}
+.Type-Form input[type=text],
+.Type-Form input[type=number],
+.Type-Form input[type=email],
+.Type-Form input[type=date],
+.Type-Form input[type=file] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.Type-Form .Main-Button {
+  text-align: center;
+  margin-top: 20px;
+}
+.Type-Form .Main-Button button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Type-Form .Main-Button button:hover {
+  background-color: #0056b3;
+}
+
+.Main-table .Filter-Div {
+  display: flex;
+  align-items: center;
+}
+.Main-table .Filter-Div input[type=text] {
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.Main-table .Filter-Div button {
+  padding: 8px 12px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.Main-table .Filter-Div button:hover {
+  background-color: #555;
+}
+.Main-table h1 {
+  text-align: center;
+}
+.Main-table .Filter-Div {
+  display: flex;
+  position: absolute;
+  left: 900px;
+  top: 200px;
+}
+.Main-table .Table-Content {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-top: 100px;
+}
+.Main-table .Table-Content th,
+.Main-table .Table-Content td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  flex: 1;
+}
+.Main-table .Table-Content .td-Link {
+  display: flex;
+  gap: 20px;
+}
+.Main-table .Table-Content th {
+  background-color: #f2f2f2;
+}
+.Main-table .Table-Content .Result-Item {
+  display: flex;
+  align-items: center;
+}
+.Main-table .Table-Content .Result-Item:hover {
+  background-color: #f9f9f9;
+}
+.Main-table .Table-Content button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+.Main-table .Table-Content .Thead-Div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.Main-Table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.Main-Table table {
+  width: 80%;
+  margin-top: 10px;
+  margin: 0 auto;
+  border-collapse: separate;
+  border: 2px solid #ddd;
+  text-align: center;
+}
+.Main-Table table th, .Main-Table table td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+.Main-Table table th {
+  background-color: #f2f2f2;
+}
+.Main-Table table td:first-child {
+  width: 10%;
+}
+.Main-Table table td:last-child {
+  width: 10%;
+}
+
+.user-data-head {
+  text-align: center;
+}
+.user-data-head h1 {
+  font-size: 40px;
+}
+.user-data-head p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.payment-success-popup {
+  position: fixed;
+  top: 20%;
+  left: 25%;
+  width: 50%;
+  background-color: rgb(65, 64, 64);
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  z-index: 9999;
+}
+.payment-success-popup p {
+  font-size: 25px;
+}
+
+.payment-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.payment-table th, .payment-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+.payment-table th {
+  background-color: #f2f2f2;
+}
+.payment-table .paid {
+  color: green;
+}
+.payment-table .unpaid {
+  color: red;
+}/*# sourceMappingURL=Style.css.map */
